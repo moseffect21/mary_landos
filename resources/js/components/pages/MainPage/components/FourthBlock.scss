@@ -1,0 +1,42 @@
+.container {
+  position: relative;
+  margin-top: 10rem;
+  .back_img {
+    width: 100%;
+    max-width: 38rem;
+    position: relative;
+    z-index: 1;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .center {
+    position: absolute;
+    top: 50%;
+    z-index: 2;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    .title {
+      font-style: italic;
+      font-weight: bold;
+      font-size: 2.8rem;
+      line-height: 3.7rem;
+      text-align: center;
+      letter-spacing: 0.05em;
+    }
+    .subtitle {
+      font-style: italic;
+      font-weight: 800;
+      font-size: 1.4rem;
+      line-height: 170%;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      text-align: center;
+      margin-top: 2.5rem;
+    }
+  }
+  .img {
+    position: absolute;
+    bottom: -18rem;
+  }
+}

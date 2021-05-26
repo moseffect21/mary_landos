@@ -1,0 +1,101 @@
+// Fonts
+@import url('/fonts/Roboto/stylesheet.css');
+@import url('/fonts/PlayfairDisplay/stylesheet.css');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+html {
+  font-size: 62.5%;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Playfair Display';
+  width: 100%;
+  height: 100%;
+}
+
+#root {
+  overflow-x: hidden;
+}
+
+* {
+  outline: none;
+  box-sizing: unset;
+  &:focus {
+    outline: none;
+  }
+  appearance: none !important;
+  -moz-appearance: none !important;
+  -webkit-appearance: none !important;
+}
+
+.page {
+  background: unset;
+}
+
+@media screen and (min-width: 769px) {
+  * {
+    &::-webkit-scrollbar-track {
+      border-radius: 10px;
+      background-color: #eaeaea;
+    }
+
+    &::-webkit-scrollbar {
+      width: 5px;
+      background-color: #eaeaea;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      border-radius: 10px;
+      background-color: #bebebe;
+    }
+  }
+}
+
+@media (max-width: 1400px) {
+  html,
+  body {
+    font-size: 53.5%;
+  }
+}
+@media (max-width: 1200px) {
+  html,
+  body {
+    font-size: 43.5%;
+  }
+}
+
+@media (max-width: 768px) {
+  html,
+  body {
+    font-size: 62.5%;
+  }
+}
+
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+button:focus {
+  outline: none;
+}
+
+input {
+  outline: none;
+}
+h1 {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  &:hover {
+    text-decoration: none;
+  }
+}

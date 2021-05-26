@@ -1,0 +1,16 @@
+.item {
+  flex-direction: row;
+  display: flex;
+  font-size: 2rem;
+  margin-top: 1rem;
+  justify-content: space-between;
+  &:nth-child(2n) {
+    background: #f5fdfe;
+  }
+  > div {
+    width: 10rem;
+  }
+  .iterator {
+    width: 2rem;
+  }
+}

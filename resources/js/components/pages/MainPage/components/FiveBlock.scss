@@ -1,0 +1,135 @@
+.container {
+  padding: 0 1.5rem;
+  padding-top: 32rem;
+  position: relative;
+}
+.form {
+  // padding: 0 1rem;
+  position: relative;
+  z-index: 2;
+}
+
+.back_img1 {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.back_img2 {
+  position: absolute;
+  right: 0;
+  bottom: -15rem;
+}
+
+.title {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+  text-align: center;
+  letter-spacing: 0.05em;
+
+  color: #000000;
+}
+.input_label {
+  display: block;
+  width: 100%;
+  margin-top: 3rem;
+}
+.input_name {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 1.4rem;
+  line-height: 1.9rem;
+  letter-spacing: 0.17em;
+  text-transform: uppercase;
+  color: #000000;
+}
+input {
+  width: 100%;
+  font-weight: 900;
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  background: transparent;
+  border: none;
+  padding: 0.8rem 0;
+  border-bottom: 2px solid #212121;
+  &::placeholder {
+    color: #909090;
+  }
+}
+.btn_block {
+  button {
+    width: 17rem;
+    height: 4.5rem;
+    background: linear-gradient(
+      251.12deg,
+      #255a67 2.37%,
+      #071f2b 42.51%,
+      #274344 70.24%,
+      #b2ced1 115.45%
+    );
+    border-radius: 2.5rem;
+    align-items: center;
+    letter-spacing: 0.17em;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 1.4rem;
+    line-height: 1.9rem;
+    color: #ffffff;
+    border: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3rem;
+  }
+}
+
+.categ_select {
+  border: none !important;
+}
+.select_control {
+  border: none !important;
+  background-color: transparent !important;
+  border-bottom: 2px solid #212121 !important;
+  padding: 0 !important;
+}
+.select_arrow {
+  border-right-color: #212121 !important;
+  border-bottom-color: #212121 !important;
+}
+.select_value {
+  padding: 0 !important;
+  font-weight: 900;
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  font-family: 'Playfair Display';
+}
+.select_multival_wrapper {
+  padding-left: 0 !important;
+}
+.select_value_label {
+  padding: 0 !important;
+  font-weight: 900;
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  font-family: 'Playfair Display' !important;
+  color: #212121 !important;
+}
+.select_menu_outer {
+  border: none !important;
+  border-radius: 1rem !important;
+  overflow: hidden !important;
+}
+.select_menu {
+  border: 1px solid #000000;
+  border-radius: 1rem !important;
+  overflow: hidden !important;
+}
+.select_option {
+  font-weight: 900;
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  font-family: 'Playfair Display' !important;
+  color: #212121 !important;
+  background: #fff !important;
+}
