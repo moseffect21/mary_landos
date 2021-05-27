@@ -26,7 +26,11 @@ const FiveBlock = () => {
     if (!name || !lastname) {
       alert('Введите имя и фамилию')
     } else {
-      apiClient.get(`/api/v1/add?name=${name}&lastname=${lastname}&selected=${value}`)
+      apiClient.get(`/api/v1/add?name=${name}&lastname=${lastname}&selected=${value}`).then(() => {
+        alert('Заявка отправлена!')
+        setName('')
+        setLastname('')
+      })
     }
   }
   return (
