@@ -38,7 +38,7 @@ const FiveBlock = () => {
       <img src="/images/form1.png" alt="" className={s.back_img1} />
       <img src="/images/form2.png" alt="" className={s.back_img2} />
       <div className={s.title}>
-        Пожалуйста, подтвердите ваше присутствие на нашем празднике до 1 июня 2021 года
+        Пожалуйста, подтвердите ваше присутствие на нашем празднике до 5 июня 2021 года
       </div>
       <div className={s.form}>
         <label htmlFor="name" className={s.input_label}>
