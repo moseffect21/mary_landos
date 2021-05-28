@@ -9,7 +9,7 @@ const FourthBlock = () => {
       <div className={s.center}>
         <div className={s.title}>Программа дня:</div>
         <div className={s.subtitle}>
-          16: 30 - Сбор гостей
+          16:30 - Сбор гостей
           <br />
           17:00 - Церемония
           <br />
